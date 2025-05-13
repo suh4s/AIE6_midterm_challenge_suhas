@@ -6,7 +6,7 @@ colorTo: indigo
 sdk: docker
 pinned: true
 # app_port: 7860 # App port is usually not needed here if using standard Chainlit port or Docker EXPOSE
-short_description: Multi-perspective research assistant with RAG and visualizations
+short_description: "AI research assistant: RAG, visuals, multi-perspective"
 ---
 
 # InsightFlow AI: Multi-Perspective Research Assistant
