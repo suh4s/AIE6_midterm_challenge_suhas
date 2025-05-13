@@ -1,0 +1,45 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Chainlit local files
+.chainlit/
+.chainlit_client/
+
+# Data directories
+exports/*
+!exports/.gitkeep
+data/*
+!data/.gitkeep
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
