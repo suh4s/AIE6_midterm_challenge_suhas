@@ -1,0 +1,257 @@
+/* InsightFlow AI Custom Styling */
+
+:root {
+  --dark-bg: #1B1D28;
+  --dark-sidebar: #13141E;
+  --dark-component: #20222F;
+  --highlight-blue: #3B82F6;
+  --text-gray: #9CA3AF;
+  --text-light: #F3F4F6;
+  --border-dark: #2D3748;
+}
+
+/* Main app styling */
+body {
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: var(--dark-bg);
+  border-bottom: 1px solid var(--border-dark);
+}
+
+/* Left sidebar styling */
+.cl-sidebar {
+  background-color: var(--dark-sidebar);
+  border-right: 1px solid var(--border-dark);
+  width: 250px !important;
+}
+
+/* Settings sections in sidebar */
+.settings-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.settings-section h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-gray);
+  margin-bottom: 10px;
+}
+
+/* Checkbox styling */
+.persona-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.persona-checkbox input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Main chat area */
+.cl-chat-container {
+  background-color: var(--dark-bg);
+}
+
+.cl-message-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Research context sidebar */
+.research-context {
+  background-color: var(--dark-component);
+  border-left: 1px solid var(--border-dark);
+  width: 400px !important;
+  overflow-y: auto;
+}
+
+.context-section {
+  padding: 15px;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.context-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: var(--text-light);
+}
+
+/* Active personas accordion */
+.active-persona {
+  margin-bottom: 10px;
+  background-color: var(--dark-bg);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.persona-header {
+  padding: 12px 15px;
+  background-color: var(--dark-component);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.persona-header h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.persona-content {
+  padding: 12px 15px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.personality-option {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.personality-option input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Headers and tabs */
+.research-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.research-tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: var(--text-gray);
+}
+
+.research-tab.active {
+  color: var(--text-light);
+  border-bottom: 2px solid var(--highlight-blue);
+}
+
+/* Additional context section */
+.additional-context {
+  padding: 15px;
+}
+
+.additional-context textarea {
+  width: 100%;
+  background-color: var(--dark-bg);
+  border: 1px solid var(--border-dark);
+  border-radius: 6px;
+  color: var(--text-light);
+  min-height: 100px;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.apply-context-btn {
+  background-color: var(--highlight-blue);
+  color: var(--text-light);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Header that shows selected personas */
+.selected-personas-header {
+  padding: 10px 15px;
+  background-color: var(--dark-component);
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: var(--text-gray);
+}
+
+/* Message input styling */
+.cl-chat-input-container {
+  background-color: var(--dark-bg);
+  border-top: 1px solid var(--border-dark);
+}
+
+.cl-chat-input {
+  background-color: var(--dark-component);
+  border: 1px solid var(--border-dark);
+  border-radius: 6px;
+}
+
+/* Custom tabs for Research Assistant/Multi-Persona Discussion */
+.app-tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.app-tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid var(--border-dark);
+  background-color: var(--dark-bg);
+  color: var(--text-gray);
+  cursor: pointer;
+}
+
+.app-tab.active {
+  background-color: var(--dark-component);
+  color: var(--text-light);
+  border-bottom: 2px solid var(--highlight-blue);
+}
+
+/* Make the UI elements appear in the correct places */
+.cl-chat {
+  display: flex;
+  height: 100vh;
+}
+
+.cl-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensures the right sidebar is properly positioned */
+#root > div {
+  display: flex;
+  width: 100%;
+}
+
+/* Custom styles to match the screenshot exactly */
+.app-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.temperature-slider {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.model-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--text-gray);
+}
+
+/* Ensure proper spacing around chat elements */
+.cl-message-list {
+  padding: 15px;
+} 

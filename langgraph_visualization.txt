@@ -1,0 +1,51 @@
+# InsightFlow AI - LangGraph Implementation Flow
+
++---------------------+      +-------------------------+      +------------------------+      +-----------------+      +-----+
+|                     |      |                         |      |                        |      |                 |      |     |
+| planner_agent       +----->+ execute_persona_tasks   +----->+ synthesize_responses  +----->+ present_results +----->+ END |
+|                     |      |                         |      |                        |      |                 |      |     |
++---------------------+      +-------------------------+      +------------------------+      +-----------------+      +-----+
+     Plan research              Generate perspectives           Combine perspectives          Present to user
+     - Examine query           - Create persona instances      - Collect all responses       - Show synthesized view
+     - Identify personas       - Parallel API requests         - Create unified view         - Display individual
+     - Structure approach      - Handle timeouts               - Structure insights           perspectives if enabled
+
+Current Implementation Architecture:
+
+1. Node: planner_agent 
+   - Input: user query and selected personas
+   - Process: Plans approach (currently simplified)
+   - Output: Updated state with research plan
+   - Progress: 10%
+
+2. Node: execute_persona_tasks
+   - Input: State with query and personas
+   - Process: Parallel generation of perspectives from each persona
+   - Output: State with persona_responses dict
+   - Progress: 40-80% (dynamically updates per persona)
+
+3. Node: synthesize_responses
+   - Input: State with all persona responses
+   - Process: Creates unified view combining all perspectives
+   - Output: State with synthesized_response
+   - Progress: 80-95%
+
+4. Node: present_results
+   - Input: State with synthesized response and persona responses
+   - Process: Formats and sends messages to user
+   - Output: Final state ready to END
+   - Progress: 95-100%
+
+Data Flow:
+- InsightFlowState object maintains the query state and responses
+- User-selected personas determine which reasoning approaches are used
+- Each persona operates independently but shares the same query
+- Final synthesis combines all perspectives into a unified view
+
+Features:
+- Parallel processing for faster responses
+- Timeout handling for reliability
+- Dynamic progress tracking for better UX
+- Direct mode bypass for speed when needed
+- Quick mode for reduced persona count
+- Streaming for real-time updates 

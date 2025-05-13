@@ -1,0 +1,137 @@
+/* public/style.css */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--chainlit-background-color); /* Use Chainlit's theme variable */
+    color: var(--chainlit-text-color); /* Use Chainlit's theme variable */
+}
+
+/* Main chat container - you might need to inspect Chainlit's generated HTML for exact selectors */
+/* This is a guess, adjust based on actual rendered HTML */
+#root .MuiBox-root { /* Common root element, might need more specificity */
+    /* background-color: #262626; /* Example: Slightly off-black if not using theme variable */
+}
+
+/* Chat input area */
+/* Targeting Chainlit's specific input structure. Inspect your app for exact classes if this doesn't work. */
+div[data-testid="chat-input-textarea"] {
+    background-color: #333333 !important;
+    border-radius: 12px !important;
+    padding: 8px 12px !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2) !important;
+    border: 1px solid #444 !important;
+}
+
+textarea[data-testid="chat-input"] {
+    background-color: transparent !important;
+    color: #E0E0E0 !important;
+    font-size: 1rem !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+/* Send button */
+button[aria-label="Send message"], button[data-testid="send-button"] {
+    background-color: #5E5CE6 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    transition: background-color 0.2s ease-in-out;
+}
+button[aria-label="Send message"]:hover, button[data-testid="send-button"]:hover {
+    background-color: #4D4AA7 !important;
+}
+button[aria-label="Stop task"] { 
+    background-color: #FF3B30 !important; 
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+/* Message Bubbles */
+/* These selectors target common Chainlit structures. Adjust if your version differs. */
+/* User Message */
+div[data-testid^="message-user"] > div > div {
+    background-color: #5E5CE6 !important; 
+    color: white !important;
+    border-radius: 18px !important;
+    border-bottom-right-radius: 5px !important; 
+    /* Add other properties like padding, margin if needed from the .user-message-class example */
+}
+
+/* Assistant Message */
+div[data-testid^="message-assistant"] > div > div {
+    background-color: #3A3A3C !important; 
+    color: #E0E0E0 !important;
+    border-radius: 18px !important;
+    border-bottom-left-radius: 5px !important; 
+    /* Add other properties like padding, margin if needed from the .assistant-message-class example */
+}
+
+/* Settings Panel - try to keep it consistent */
+/* You'll need to inspect elements if settings panel needs specific overrides */
+/* .settings-modal-class { ... } */
+
+/* Action Buttons (e.g., Export buttons, those in settings panel) */
+button.MuiButtonBase-root[id^="action-button-"] {
+    background-color: #4CAF50 !important; 
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 6px 12px !important; 
+    text-transform: none !important;
+    font-weight: 500 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15) !important;
+    transition: background-color 0.2s ease-in-out;
+    margin: 5px !important; 
+}
+button.MuiButtonBase-root[id^="action-button-"]:hover {
+    background-color: #409644 !important;
+}
+
+/* Style for the gear icon (settings button) to make it more prominent if desired */
+/* button[aria-label=\"Settings\"] { */
+/*   color: #5E5CE6 !important; */
+/* } */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2c2c2e;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* Code block styling */
+pre, code {
+    background-color: #2C2C2E !important;
+    color: #E0E0E0 !important;
+    border-radius: 6px;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
+pre {
+    padding: 1em;
+    overflow-x: auto;
+    border: 1px solid #444;
+}
+pre > code {
+    padding: 0;
+    background-color: transparent !important; 
+    border: none;
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+    background-color: #1E1E1E; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #484848;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+} 

@@ -1,0 +1,5 @@
+Think of quantum computing like a combination lock with multiple correct combinations simultaneously. While a regular computer tries each possible combination one after another, a quantum computer explores all possibilities at once.
+
+The relationship between the economy and interest rates is like a boat on the ocean. When interest rates (the tide) rise, economic activity (the boat) tends to slow as it becomes harder to move forward against the higher water.
+
+Imagine your neural network as a child learning to identify animals. At first, it might think all four-legged creatures are dogs. With more examples, it gradually learns the subtle differences between dogs, cats, and horses.
