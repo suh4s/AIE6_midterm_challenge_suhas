@@ -317,7 +317,7 @@ For the second half of the course, we plan to implement:
 6. **Deployment Hardening**: Solidify the Hugging Face Spaces deployment, manage secrets securely, and ensure reliable operation.
 
 Final Submission Links
-Public GitHub Repo: https://github.com/suhas/AIE6_Cert_Challenge_Suhas (Contains all relevant code, this document, and other materials).
+Public GitHub Repo: https://github.com/suhas/AIE6_midterm_challenge_suhas (Contains all relevant code, this document, and other materials).
 Loom Video Demo: https://www.loom.com/share/e1048941187a4b3aa2b67944df872f79?sid=d99b0103-07cf-4612-979b-54db50dc0bae
 Written Document (This Document): Included in the GitHub repository.
 Public Application on Hugging Face: https://huggingface.co/spaces/suh4s/InsightFlowAI_test
