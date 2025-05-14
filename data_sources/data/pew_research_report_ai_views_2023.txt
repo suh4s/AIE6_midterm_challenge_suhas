@@ -1,0 +1,84 @@
+What the data says about Americans’ views of artificial intelligence
+​
+ Summarize
+​
+Michelle FaverioNovember 21, 2023
+Close up of woman's hand touching illuminated and multi-coloured LED display screen, connecting to the future. People, lifestyle and technology
+(d3sign/Getty Images)
+From detecting cancer on a medical scan to drafting an essay for a school assignment, artificial intelligence is increasingly shaping the way Americans live.
+
+Pew Research Center surveys show that Americans are increasingly cautious about the growing role of AI in their lives generally. Today, 52% of Americans are more concerned than excited about AI in daily life, compared with just 10% who say they are more excited than concerned; 36% feel a mix of excitement and concern.
+
+Despite these cautious overall views, Americans see some specific uses of AI positively, and attitudes depend a great deal on the context of how and why AI is being used.
+
+This post summarizes what we know so far about how Americans view AI in everyday life, the workplace, and health and medicine.
+
+Public awareness of AI
+
+The vast majority of Americans (90%) say they’ve heard at least a little about artificial intelligence, according to an August 2023 survey. However, only one-in-three say they’ve heard a lot about it.
+
+While most people are aware of AI, Americans’ ability to identify specific uses of the technology is still developing. Only 30% of U.S. adults correctly recognize all six examples of AI in everyday life that we asked about in a December 2022 survey.
+
+And not everyone brings the same level of understanding. Adults with a college or postgraduate degree are more likely to be familiar with AI than those with less education. There are also significant differences by gender and age, with men and younger adults being more familiar with AI than women and older adults.
+
+Views and experiences with ChatGPT
+
+Generative AI, or programs that can produce text and images, garnered wide media attention in 2023. One prominent example of this technology is ChatGPT. We found in March 2023 that 58% of U.S. adults have heard of ChatGPT, while 42% have heard nothing at all about it.
+
+As with awareness of AI generally, familiarity with ChatGPT is higher among men, younger adults and those with a college or postgraduate degree. 
+
+Even though a majority of Americans are aware of the program, firsthand experience with it is relatively uncommon. Just 18% of all U.S. adults say they’ve used ChatGPT.
+
+AI in schooling
+
+We asked U.S. teens ages 13 to 17 about the program in a fall 2023 survey. We found that 67% are familiar with ChatGPT. And 19% of those teens say they have used it to help with their schoolwork.
+
+Most teens who’ve heard of ChatGPT say it’s acceptable to use ChatGPT to research new things (69%). But fewer say the same about using it for things like solving math problems (39%). And a majority (57%) say it is not acceptable to use it to write essays.
+
+Views of AI in the workplace
+
+In 2022, 19% of American workers were in jobs that are most exposed to AI, based on a Center analysis of government data. Those jobs tend to be in higher-paying fields where a college degree and analytical skills can be a plus.
+
+Our December 2022 survey shows 62% of Americans believe AI will have a major impact on workers generally. However, far fewer think it will impact them personally in a major way (28%).
+
+A majority of U.S. adults oppose using AI to make final hiring decisions or track workers’ movements on the job. In fact, 66% of Americans say they would not want to apply for a job with an employer who uses AI to help with hiring decisions. But there’s more openness to using AI in other ways, like monitoring workers’ driving while they make trips for work or tracking attendance.
+
+Views of AI in health and medicine
+
+Health and medicine is one area where many Americans may encounter artificial intelligence. AI is increasingly being used to do things like help diagnose disease and recommend treatment.
+
+Yet six-in-ten Americans say they would feel uncomfortable with their health care provider relying on AI to help care for them.
+
+More broadly, the public is divided on the impact of AI in health and medicine. While 38% say it will lead to better outcomes for patients, 33% say it will lead to worse outcomes and 27% say it won’t make much difference. One widely expressed concern is that AI will make patients’ personal relationships with their providers worse.
+
+While Americans are cautious about the use of AI in health and medicine generally, they support some specific uses. For instance, 65% say they would want AI to be used in their own skin cancer screening. Studies have found some AI software to be highly accurate at detecting skin cancer.
+
+Support for oversight and regulation of AI
+
+By and large, Americans back regulation and oversight of emerging AI technologies, including chatbots and driverless vehicles.
+
+For example, 67% of those who are familiar with chatbots like ChatGPT say they are more concerned that the government will not go far enough in regulating their use than that it will go too far. A much smaller share (31%) takes the opposite view.
+
+When it comes to AI-powered driverless vehicles, 87% of Americans want them held to a higher testing standard than other passenger vehicles. Americans also commonly express unease around the unanticipated consequences and risks of these technologies. About three-quarters (76%) think it’s likely that the computer systems in driverless vehicles could be easily hacked, putting safety at risk.
+
+A related concern is over the pace of AI adoption in society. In health and medicine, for instance, 75% of Americans think health care providers will move too fast using AI, before fully understanding the potential risks.
+
+Common concerns – and sources of excitement – about AI
+
+While the specific uses of AI matter a lot in how Americans feel about it, we see some common themes in what people like and don’t like about AI.
+
+On the positive side
+
+There are generally higher levels of support for AI when it is used to help with routine or basic tasks. A majority (57%) of Americans say they would be excited for AI to perform household chores, while just 19% express concern about this. Saving time or helping handle mundane tasks are also common reasons for excitement about AI.
+
+Americans are also pretty positive when it comes to AI’s ability to help people find products and services they are interested in online. 
+
+And while experts debate how AI will influence bias in society around things like race and gender, there are signs that the public is more optimistic than pessimistic. For example, among U.S. adults who see a problem with racial and ethnic bias in health and medicine, more think the use of AI would make the issue of bias better than worse (51% vs. 15%). Similarly, among those who see bias in hiring as an issue, more think AI would improve the problem of bias based on job applicants’ race or ethnicity than say it would worsen it (53% vs. 13%).
+
+On the negative side
+
+There’s broad concern about the loss of the human element due to emerging AI technologies, especially in settings like the workplace and health care. Many Americans who would not want to apply for a job that uses AI in the hiring process cite a lack of the “human factor” in hiring as the reason why. In health and medicine, a majority of Americans think relying more on AI would hurt patients’ relationships with their providers.
+
+The potential for negative impacts on jobs is another common concern with AI. Among those who say they’re more concerned than excited about AI, the risk of people losing their job is cited most often as the reason why. We also see this concern with some specific examples of AI. For example, 83% of Americans think driverless cars would lead to job loss for ride-share and delivery drivers.
+
+Surveillance and data privacy are also concerns when discussing AI. Large majorities of Americans who are aware of AI think that as companies use AI, personal information will be used in unintended ways and ways people are not comfortable with.  

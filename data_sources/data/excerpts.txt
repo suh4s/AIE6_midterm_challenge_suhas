@@ -1,0 +1,5 @@
+When we talk about algorithms making decisions, we're not just discussing abstract mathematics – we're talking about systems that increasingly determine who gets a job, who gets a loan, and sometimes even who goes to prison. The math matters because its consequences are profoundly human.
+
+The fascinating thing about probability is how it challenges our intuition. Take the famous Birthday Paradox: in a room of just 23 people, there's a 50% chance that at least two people share a birthday. With 70 people, that probability jumps to 99.9%.
+
+Data never speaks for itself – it always comes with human assumptions baked in. When we look at a dataset showing correlation between two variables, we need to ask: what might be causing this relationship?

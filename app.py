@@ -41,7 +41,7 @@ PERSONA_LLM_MAP = {}
 # Embedding Model Identifiers
 OPENAI_EMBED_MODEL_ID = "text-embedding-3-small"
 # IMPORTANT: Replace with your actual fine-tuned model ID from Hugging Face Hub after training
-FINETUNED_BALANCED_TEAM_EMBED_ID = "suh4s/insightflow-balanced-team-embed-v1" # Placeholder
+FINETUNED_BALANCED_TEAM_EMBED_ID = "suh4s/insightflow-balanced-team-embed-v1-7099e82c-e4c8-48ed-88a8-36bd9255036b" # Placeholder
 
 QUICK_MODE_PERSONAS = ["analytical", "factual"] # Default personas for Quick Mode
 # --- RAG Configuration (moved to global scope) ---
